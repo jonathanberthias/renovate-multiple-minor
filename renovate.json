@@ -1,5 +1,11 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended"],
-    "separateMultipleMinor": true
+    "separateMultipleMinor": true,
+    "packageRules": [
+        {
+            "groupName": "python",
+            "matchDepNames": ["python"]
+        }
+    ]
 }
