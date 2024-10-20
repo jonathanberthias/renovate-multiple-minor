@@ -11,7 +11,7 @@
     "customManagers": [
         {
             "customType": "regex",
-            "matchStrings": ["Python (?P<currentVersion>.*)$"],
+            "matchStrings": ["Python (?<currentValue>.*)$"],
             "fileMatch": ["README.md"],
             "depNameTemplate": "python",
             "datasourceTemplate": "docker",
