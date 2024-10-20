@@ -4,7 +4,6 @@
     "separateMajorMinor": false,
     "packageRules": [
         {
-            "groupName": "python",
             "matchDepNames": [
                 "public.ecr.aws/docker/library/python",
                 "python"
