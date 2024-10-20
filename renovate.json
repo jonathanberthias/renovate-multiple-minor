@@ -9,7 +9,8 @@
                 "public.ecr.aws/docker/library/python",
                 "python"
             ],
-            "separateMultipleMinor": true
+            "separateMultipleMinor": true,
+            "separateMajorMinor": true
         }
     ],
     "customManagers": [
