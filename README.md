@@ -2,4 +2,4 @@
 Reproduction of Renovate bug with separateMultipleMinor
 
 
-Uses Python 3.11.9
+Uses Python 3.11
