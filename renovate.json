@@ -5,7 +5,10 @@
     "packageRules": [
         {
             "groupName": "python",
-            "matchDepNames": ["python"]
+            "matchDepNames": [
+                "public.ecr.aws/docker/library/python",
+                "python"
+            ]
         }
     ],
     "customManagers": [
