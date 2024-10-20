@@ -7,5 +7,15 @@
             "groupName": "python",
             "matchDepNames": ["python"]
         }
+    ],
+    "customManagers": [
+        {
+            "customType": "regex",
+            "matchStrings": ["Python (?P<currentVersion>.*)$"],
+            "fileMatch": ["README.md"],
+            "depNameTemplate": "python",
+            "datasourceTemplate": "docker",
+            "versioningTemplate": "docker"
+        }
     ]
 }
