@@ -1,14 +1,14 @@
 {
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended"],
-    "separateMultipleMinor": true,
     "packageRules": [
         {
             "groupName": "python",
             "matchDepNames": [
                 "public.ecr.aws/docker/library/python",
                 "python"
-            ]
+            ],
+            "separateMultipleMinor": true
         }
     ],
     "customManagers": [
