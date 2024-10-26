@@ -11,7 +11,11 @@
             ],
             "separateMultipleMinor": true,
             "separateMajorMinor": true
-        }
+        },
+	{
+            "matchCategories": ["rust"],
+            "rangeStrategy": "pin"
+	}
     ],
     "customManagers": [
         {
