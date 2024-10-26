@@ -1,0 +1,8 @@
+[package]
+name = "renovate-multiple-minor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.85"
+syn = "2.0.80"
