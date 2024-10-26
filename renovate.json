@@ -14,7 +14,7 @@
         },
 	{
             "matchCategories": ["rust"],
-            "rangeStrategy": "bump"
+            "rangeStrategy": "pin"
 	}
     ],
     "customManagers": [
