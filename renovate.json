@@ -2,7 +2,10 @@
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": ["config:recommended"],
     "separateMajorMinor": false,
-    "lockFileMaintenance": true,
+    "lockFileMaintenance": {
+        "enabled": true,
+        "schedule": null
+    },
     "packageRules": [
         {
             "groupName": "Python",
